@@ -1,4 +1,4 @@
-package composition
+package compositions
 
 import (
 	"encoding/csv"

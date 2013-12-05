@@ -1,6 +1,6 @@
 // Copyright 2012 The Eco Authors. All rights reserved. See the LICENSE file.
 
-package composition
+package compositions
 
 // Some handy functions. 
 

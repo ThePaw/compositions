@@ -1,6 +1,6 @@
 // Copyright 2012 The Composition Authors. All rights reserved. See the LICENSE file.
 
-package composition
+package compositions
 
 /* 
 Centered log ratio transform of a (dataset of) composition(s) and its inverse.
