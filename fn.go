@@ -90,8 +90,6 @@ func unif64(low, high int64) int64 {
 	return low + rand.Int63n(high-low+1)
 }
 
-
-
 // fact returns the factorial of an int
 func fact(n int) int {
 	if n < 0 {
@@ -107,9 +105,7 @@ func fact(n int) int {
 	return f
 }
 
-
 // natural logarithm
 func ln(x float64) float64 {
 	return math.Log(x)
 }
-

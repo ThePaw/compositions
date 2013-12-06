@@ -82,7 +82,6 @@ func (a Matrix64) CopyFrom(srcMat Matrix64) {
 	return
 }
 
-
 // Clone clones a matrix.
 func (a Matrix64) Clone() Matrix64 {
 	clone := NewMatrix64(a.Dims())
@@ -267,7 +266,6 @@ func (a Matrix64) PrettyString() string {
 	return res
 }
 
-
 // Transpose returns transposed matrix. 
 func (a Matrix64) Transpose() Matrix64 {
 	nRow, nCol := a.Dims()
@@ -279,9 +277,6 @@ func (a Matrix64) Transpose() Matrix64 {
 	}
 	return c
 }
-
-
-
 
 func (a Matrix64) Equals(b Matrix64) bool {
 	r1, c1 := a.Dims()
@@ -298,4 +293,3 @@ func (a Matrix64) Equals(b Matrix64) bool {
 	}
 	return true
 }
-
